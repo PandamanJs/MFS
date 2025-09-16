@@ -10,6 +10,7 @@ import Checkout from "./pages/Checkout";
 import PaymentSuccess from "./components/PaymentSuccess";
 import PageNotFound from "./pages/PageNotFound";
 import ReceiptsPage from "./pages/ReceiptsPage";
+import AdminQuickBooks from "./pages/AdminQuickBooks";
 
 function AppWrapper() {
   const location = useLocation();
@@ -35,6 +36,8 @@ function AppWrapper() {
             <Route path="success" element={<PaymentSuccess />} />
             <Route path="receipts" element={<ReceiptsPage />} />
           </Route>
+          {/* Admin-only QuickBooks page (requires secret key in query) */}
+          <Route path="admin/qb" element={<AdminQuickBooks />} />
           <Route path="*" element={<PageNotFound />}></Route>
         </Routes>
       </div>

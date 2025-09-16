@@ -1,7 +1,10 @@
 import axios from 'axios';
 
 // QuickBooks API configuration
-const QB_BASE_URL = 'https://sandbox-quickbooks.api.intuit.com'; // Use production URL for live
+// Use env to choose base URL. Defaults to production.
+const QB_BASE_URL = (import.meta.env.VITE_QB_BASE_URL && import.meta.env.VITE_QB_BASE_URL.trim())
+  ? import.meta.env.VITE_QB_BASE_URL.trim()
+  : 'https://quickbooks.api.intuit.com';
 const QB_API_VERSION = 'v3';
 
 class QuickBooksService {
