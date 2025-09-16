@@ -3,8 +3,8 @@ import react from "@vitejs/plugin-react";
 import eslint from "vite-plugin-eslint";
 
 // https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [react(), eslint()],
+export default defineConfig(({ mode }) => ({
+  plugins: [react(), ...(mode === 'development' ? [eslint()] : [])],
   build: {
     outDir: 'dist',
     sourcemap: false,
@@ -25,4 +25,4 @@ export default defineConfig({
     port: 4173,
     host: true
   }
-});
+}));
