@@ -1,0 +1,89 @@
+.container {
+  padding: 1rem;
+  min-height: 100vh;
+  margin-top: 4rem;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+
+.closeBtn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: #2d3648;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #003049;
+}
+
+.subtitle {
+  margin: 0.5rem 0 1.5rem;
+  font-size: 0.95rem;
+  color: #4f5b67;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #2d3648;
+  margin-bottom: 0.25rem;
+}
+
+.meta {
+  font-size: 0.875rem;
+  color: #6b7280;
+  line-height: 1.4;
+}
+
+.viewBtn {
+  background: transparent;
+  border: 1px solid #003049;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #003049;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding: 2rem;
+  }
+  .item {
+    padding: 1.25rem 0;
+  }
+  .viewBtn {
+    padding: 0.6rem 1.25rem;
+    font-size: 1rem;
+  }
+}

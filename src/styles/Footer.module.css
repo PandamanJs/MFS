@@ -1,0 +1,14 @@
+.footer {
+  margin-top: 1rem;
+}
+
+.topArt {
+  align-self: flex-start;
+  display: flex;
+  width: 15.36194rem;
+  height: 3.69706rem;
+  z-index: 5;
+}
+.bottomArt {
+  z-index: -1;
+}

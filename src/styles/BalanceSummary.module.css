@@ -1,0 +1,174 @@
+.wrapper {
+  font-family: "Poppins", sans-serif;
+  padding: 1.5rem;
+  background: #fff;
+  color: #0a2a3a;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.header h2 {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.totalLabel {
+  font-size: 0.9rem;
+  color: #9ca3af;
+  margin-top: 1rem;
+}
+
+.totalAmount {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.3rem 0 1rem 0;
+}
+
+.primaryBtn {
+  background-color: #003b5c;
+  color: #fff;
+  font-size: 1rem;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.separator {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid #eee;
+}
+
+.detailSection h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.detailSection p {
+  color: #6b7280;
+  font-size: 0.85rem;
+  margin-bottom: 1.25rem;
+}
+
+.detailSection h4 {
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.progressBar {
+  display: flex;
+  height: 20px;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 0.4rem;
+}
+
+.paid {
+  width: 90%;
+  background-color: #003b5c;
+}
+
+.remaining {
+  width: 10%;
+  background-color: #d1fae5;
+}
+
+.progressLabels {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+}
+
+.breakdownBox {
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #fff;
+  font-size: 0.95rem;
+}
+
+.breakdownRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  color: #6b7280;
+}
+
+.breakdownRowBold {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-top: 0.8rem;
+  color: #003b5c;
+}
+
+.addBtn {
+  background-color: #f1f5f9;
+  color: #2d3748;
+  font-weight: 600;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.addBtn {
+  background-color: #f1f5f9;
+  color: #2d3748;
+  font-weight: 600;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+/* new “added” state */
+.addedBox {
+  margin-top: 1rem;
+  width: 100%;
+  background-color: #e6fdf5;
+  border-radius: 12px;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addedBox svg {
+  stroke: #2bb6a9;
+  width: 24px;
+  height: 24px;
+}
+.footer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.proceedBtn {
+  background-color: #f1f5f9;
+  color: #2d3748;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.arrow {
+  font-weight: bold;
+}

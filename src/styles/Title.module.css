@@ -1,0 +1,24 @@
+.iconNname {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  color: #003049;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  align-items: center;
+  margin-top: 4.55rem;
+}

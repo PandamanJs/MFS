@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  margin-top: 1rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.95rem;
+  color: #1a1a1a;
+}
+
+.invoice {
+  font-size: 0.85rem;
+  color: #85929e;
+  margin-top: 0.2rem;
+}
+
+.amount {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #2d3648;
+}

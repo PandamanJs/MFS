@@ -1,0 +1,41 @@
+.historyBox {
+  border: 1px solid #e0e0e0;
+  font-family: "Poppins";
+
+  border-radius: 10px;
+  padding: 1rem;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #7d8793;
+  margin-bottom: 1rem;
+}
+
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #4f5b67;
+  text-align: center;
+  font-size: 0.875rem;
+  padding: 1rem;
+  min-height: 300px;
+}
+
+.icon {
+  font-size: 1.8rem;
+  color: #2bb6a9;
+}
+
+.message {
+  /* max-width: 200px; */
+}

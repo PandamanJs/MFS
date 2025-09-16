@@ -1,0 +1,80 @@
+.childCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 14px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 0.75rem 1rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1.25rem;
+  cursor: pointer;
+  gap: 1rem;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.checkbox {
+  appearance: none;
+  min-width: 12px;
+  min-height: 12px;
+  border: 2px solid #007aff;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+}
+
+.checkbox:checked {
+  background-color: #007aff;
+}
+
+.checkbox:checked::after {
+  content: "✓";
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+}
+
+.childInfo {
+  width: 100%;
+}
+
+.childInfo h2 {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.meta {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.45rem;
+  color: #4a4a4a;
+}
+
+.separator {
+  color: #aaa;
+}
+
+.clearBalance {
+  background-color: #dde4e3;
+  color: #2d3648;
+  font-weight: 600;
+  width: 50%;
+  font-size: 0.6rem;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  padding: 0.6rem 0.75rem;
+  border-radius: 10px;
+  cursor: pointer;
+  white-space: normal;
+  overflow-wrap: break-word;
+}

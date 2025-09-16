@@ -1,0 +1,59 @@
+.formContainer {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #004366;
+  margin-bottom: 1.5rem;
+}
+
+.fieldGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.25rem;
+}
+
+.fieldGroup label {
+  font-size: 0.85rem;
+  color: #2d3648;
+  margin-bottom: 0.4rem;
+}
+
+.select {
+  padding: 0.75rem 1rem;
+  border: 1px solid #d2dce5;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  background-color: #fff;
+  color: #2d3648;
+  appearance: none;
+  cursor: pointer;
+}
+
+.doneButton {
+  width: 100%;
+  background-color: #95e46c;
+  color: #2d3648;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.9rem 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.doneButton:hover {
+  background-color: #85d45e;
+}

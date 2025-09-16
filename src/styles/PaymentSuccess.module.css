@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* fill parent */
+  padding: 2rem;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 1.5rem;
+}
+
+.message {
+  font-size: 1rem;
+  color: #2d3648;
+  margin-bottom: 2rem;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #003049;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px;
+}
+
+.button:hover {
+  background-color: #002639;
+}
+
+.arrow {
+  font-size: 1.2rem;
+}
